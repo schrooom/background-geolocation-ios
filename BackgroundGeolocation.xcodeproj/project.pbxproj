@@ -49,7 +49,6 @@
 		41B1804E1FD2E05C00951D67 /* MAURDistanceFilterLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 41399A071D941BC7005D6B5D /* MAURDistanceFilterLocationProvider.m */; };
 		41B1804F1FD2E05C00951D67 /* MAURRawLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198B21D1FB08A2B00DCC96D /* MAURRawLocationProvider.m */; };
 		41B180501FD2E05C00951D67 /* MAURLogReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E82E7B1D5E351900F65575 /* MAURLogReader.m */; };
-		41B180511FD2E05C00951D67 /* CocoaLumberjack.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E82E691D5E351900F65575 /* CocoaLumberjack.m */; };
 		41B180521FD2E05C00951D67 /* FMDBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E82E6F1D5E351900F65575 /* FMDBLogger.m */; };
 		41B180531FD2E05C00951D67 /* FMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E82E6D1D5E351900F65575 /* FMDB.m */; };
 		41B180551FD2E05C00951D67 /* MAURBackgroundTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E82E651D5E351900F65575 /* MAURBackgroundTaskManager.m */; };
@@ -163,8 +162,6 @@
 		41BCFA591FE19ED300D4000E /* SOStepDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOStepDetector.m; sourceTree = "<group>"; };
 		41E82E641D5E351900F65575 /* MAURBackgroundTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAURBackgroundTaskManager.h; sourceTree = "<group>"; };
 		41E82E651D5E351900F65575 /* MAURBackgroundTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAURBackgroundTaskManager.m; sourceTree = "<group>"; };
-		41E82E681D5E351900F65575 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
-		41E82E691D5E351900F65575 /* CocoaLumberjack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaLumberjack.m; sourceTree = "<group>"; };
 		41E82E6A1D5E351900F65575 /* MAURConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAURConfig.h; sourceTree = "<group>"; };
 		41E82E6B1D5E351900F65575 /* MAURConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAURConfig.m; sourceTree = "<group>"; };
 		41E82E6C1D5E351900F65575 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
@@ -345,8 +342,6 @@
 				412428CD1FB5B15D00B21101 /* MAURLogging.h */,
 				41E82E7A1D5E351900F65575 /* MAURLogReader.h */,
 				41E82E7B1D5E351900F65575 /* MAURLogReader.m */,
-				41E82E681D5E351900F65575 /* CocoaLumberjack.h */,
-				41E82E691D5E351900F65575 /* CocoaLumberjack.m */,
 				41E82E6E1D5E351900F65575 /* FMDBLogger.h */,
 				41E82E6F1D5E351900F65575 /* FMDBLogger.m */,
 				412123D4207E9AD600D23929 /* MAURUncaughtExceptionLogger.h */,
@@ -535,7 +530,6 @@
 				41B1804F1FD2E05C00951D67 /* MAURRawLocationProvider.m in Sources */,
 				41369C222080F23D00EB449C /* ZIMSqlExpression.m in Sources */,
 				41B180501FD2E05C00951D67 /* MAURLogReader.m in Sources */,
-				41B180511FD2E05C00951D67 /* CocoaLumberjack.m in Sources */,
 				41973E9720AECC4A00A7BE7D /* INTULocationRequest.m in Sources */,
 				41973E9620AECC4A00A7BE7D /* INTULocationManager.m in Sources */,
 				41B180521FD2E05C00951D67 /* FMDBLogger.m in Sources */,
